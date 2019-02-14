@@ -1,7 +1,7 @@
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela "pessoa"
+-- Estrutura da tabela "cliente"
 --
 
 CREATE TABLE `cliente` (

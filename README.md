@@ -5,7 +5,7 @@ projeto iniciado em febereiro de 2019
 
 ## Configuração do Projeto:
 
-- Executar a query pessoa.sql ou importar o arquivo no phpMyAdmin para criar a table necessária.
+- Executar a query cliente.sql ou importar o arquivo no phpMyAdmin para criar a table necessária.
 - Editar o arquivo **banco.php** 
 
 ```

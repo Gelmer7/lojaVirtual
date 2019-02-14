@@ -40,7 +40,7 @@
                     <?php
                         include 'banco.php';
                         $pdo = Banco::conectar();
-                        $sql = 'SELECT * FROM pessoa ORDER BY id DESC';
+                        $sql = 'SELECT * FROM cliente ORDER BY id DESC';
 
                         foreach($pdo->query($sql)as $row)
                         {

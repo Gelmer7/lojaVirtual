@@ -70,7 +70,7 @@
                 {
                     $pdo = Banco::conectar();
                     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-                    $sql = "UPDATE pessoa  set nome = ?, endereco = ?, telefone = ?, email = ?, sexo = ? WHERE id = ?";
+                    $sql = "UPDATE cliente  set nome = ?, endereco = ?, telefone = ?, email = ?, sexo = ? WHERE id = ?";
                     $q = $pdo->prepare($sql);
                     $q->execute(array($nome,$endereco,$telefone,$email,$sexo,$id));
                     Banco::desconectar();
@@ -81,7 +81,7 @@
             {
                 $pdo = Banco::conectar();
 		$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-		$sql = "SELECT * FROM pessoa where id = ?";
+		$sql = "SELECT * FROM cliente where id = ?";
 		$q = $pdo->prepare($sql);
 		$q->execute(array($id));
 		$data = $q->fetch(PDO::FETCH_ASSOC);

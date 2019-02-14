@@ -58,7 +58,7 @@
         {
             $pdo = Banco::conectar();
             $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            $sql = "INSERT INTO pessoa (nome, endereco, telefone, email, sexo) VALUES(?,?,?,?,?)";
+            $sql = "INSERT INTO cliente (nome, endereco, telefone, email, sexo) VALUES(?,?,?,?,?)";
             $q = $pdo->prepare($sql);
             $q->execute(array($nome,$endereco,$telefone,$email,$sexo));
             Banco::desconectar();
