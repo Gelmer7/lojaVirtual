@@ -12,36 +12,12 @@
     <div class="container">
         <!-- cabecalho-->
         <div class="jumbotron">
-            <div class="col">
-                <h1> Loja Virtual </h1>
+            <div class="row">
+                <h2> Lista de Clientes </h2>
             </div>
-            <div>
-                <h4><span class="badge badge-light"> Autor: Gelmer Apaza C. v1.0.0</span></h4>
-            </div>
-            <table class="table table-striped">
-                <tr>
-                    <th scope="col"> <a href="cadastrarcliente.php" class="btn btn-success">Cadastrar Clientes</a></th>
-                    <th scope="col"> <a href="listacliente.php" class="btn btn-outline-info">Listar Clientes</a></th>
-
-                </tr>
-                <tr>
-                    <th scope="col"> <a href="cadastrarproduto.php" class="btn btn-success">Cadastrar Productos</a></th>
-                    <th scope="col"><a href="listaproduto.php" class="btn btn-outline-info">Listar Productos</a></th>
-                </tr>
-
-            </table>
         </div>
-
-
         <div class="row">
-            <div class=" col-md-12 text-center">
-                <img class="img-responsive" src="img/logo-inicio.png" alt="Imagem" />
-            </div>
-        </div>
-    </div>
-
-
-    <!--             <table class="table table-striped">
+            <table class="table table-striped">
                 <thead>
                     <tr>
                         <th scope="col">Id</th>
@@ -80,8 +56,9 @@
                         Banco::desconectar();
                         ?>
                 </tbody>
-            </table> -->
-    </div>
+            </table>
+        </div>
+        <a href="index.php" type="btn" class="btn btn-default">Voltar</a>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.js"
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>

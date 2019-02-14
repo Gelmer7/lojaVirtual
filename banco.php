@@ -2,6 +2,7 @@
 
 class Banco
 {
+    
     private static $dbNome = 'lojavirtual';
     private static $dbHost = 'localhost';
     private static $dbUsuario = 'root';

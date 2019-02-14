@@ -82,10 +82,10 @@
         <div clas="span10 offset1">
             <div class="card">
                 <div class="card-header">
-                    <h3 class="well"> Adicionar Contato </h3>
+                    <h3 class="well"> Adicionar Cliente </h3>
                 </div>
                 <div class="card-body">
-                    <form class="form-horizontal" action="create.php" method="post">
+                    <form class="form-horizontal" action="cadastrarcliente.php" method="post">
 
                         <div class="control-group <?php echo !empty($nomeErro)?'error ' : '';?>">
                             <label class="control-label">Nome</label>
